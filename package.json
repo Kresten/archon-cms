@@ -2,7 +2,7 @@
   "name": "archon-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Archon CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -28,7 +28,7 @@
     "strapi-utils": "3.6.8"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Kre"
   },
   "strapi": {
     "uuid": "a17d9a7e-7e26-4956-9d51-29edf2271b01"
