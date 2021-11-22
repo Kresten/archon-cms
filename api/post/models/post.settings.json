@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "posts",
   "info": {
-    "name": "article",
+    "name": "post",
     "description": ""
   },
   "options": {
@@ -29,10 +29,6 @@
       "targetField": "title",
       "required": true
     },
-    "category": {
-      "model": "category",
-      "via": "articles"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -45,8 +41,12 @@
       "required": true,
       "pluginOptions": {}
     },
+    "category": {
+      "via": "posts",
+      "model": "category"
+    },
     "author": {
-      "via": "articles",
+      "via": "posts",
       "model": "writer"
     }
   }
