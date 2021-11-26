@@ -25,11 +25,12 @@
       "pluginOptions": {}
     },
     "posts": {
-      "collection": "post",
-      "via": "author"
+      "via": "author",
+      "collection": "post"
     },
     "email": {
-      "type": "string"
+      "type": "string",
+      "private": true
     }
   }
 }
